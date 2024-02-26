@@ -4,3 +4,27 @@
 [submodule "Backend/classes/ModularMonolith"]
 	path = Backend/classes/ModularMonolith
 	url = https://github.com/jonatasolmartins/ModularMonolith.git
+[submodule "Backend/classes/MediatorPlusDelegate"]
+	path = Backend/classes/MediatorPlusDelegate
+	url = https://github.com/jonatasolmartins/MediatorPlusDelegate.git
+[submodule "Backend/classes/RestAPIExample"]
+	path = Backend/classes/RestAPIExample
+	url = https://github.com/jonatasolmartins/RestAPIExample.git
+[submodule "Backend/classes/StrategyDesignPattern"]
+	path = Backend/classes/StrategyDesignPattern
+	url = https://github.com/jonatasolmartins/StrategyDesignPattern.git
+[submodule "Backend/classes/Covariant"]
+	path = Backend/classes/Covariant
+	url = https://github.com/jonatasolmartins/CovariantExample-BC-BR.git
+[submodule "Backend/classes/Contravariant"]
+	path = Backend/classes/Contravariant
+	url = https://github.com/jonatasolmartins/ContravariantExample-BC-BR.git
+[submodule "Backend/classes/Delegates"]
+	path = Backend/classes/Delegates
+	url = https://github.com/jonatasolmartins/Delegates.git
+[submodule "Backend/classes/DelegatesAndEvents"]
+	path = Backend/classes/DelegatesAndEvents
+	url = https://github.com/jonatasolmartins/DelegatesAndEvents.git
+[submodule "Backend/classes/ActionFilters"]
+	path = Backend/classes/ActionFilters
+	url = https://github.com/jonatasolmartins/ActionFilter.Jala.Api.git
