@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/form.css" />
+  <link rel="stylesheet" href="./css/task-list.css" />
+  <link rel="stylesheet" href="./css/modal.css" />
+  <link rel="stylesheet" href="./css/dark.css">
+
+  <title>To-do</title>
+</head>
+
+<body>
+  <header>
+    <h1>To-do ✔</h1>
+    <p>Gerencie suas tarefas de forma inteligente!</p>
+    <nav>
+      <div class="btn-bg">
+        <input onclick="changeBackground(this)" class="checkbox" type="checkbox" id="switch">
+        <label class="checkbox" for="switch">Dark Mode</label>
+      </div>
+      <div id="api-button">
+        <a href="./api.html">
+          <img src="https://static.thenounproject.com/png/1596429-200.png" alt="link api page" id="icon">Lista de
+          tarefas
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <form action="" onsubmit="handleCreateNewTask(event)" id="create-new-task">
+      <div class="input">
+        <label for="create-date">Data de criação: </label>
+        <input type="date" id="create-date" name="create-date" disabled required />
+      </div>
+      <div class="input">
+        <label for="limit-date">Data limite:</label>
+        <input type="date" id="limit-date" name="limit-date" required />
+      </div>
+      <div class="input">
+        <label for="description">Descrição</label>
+        <input type="text" placeholder="Descrição" id="description" name="description" required />
+      </div>
+      <button type="submit">Adicionar</button>
+    </form>
+    <section id="task-list"></section>
+  </main>
+  <footer></footer>
+
+  <div class="modal-overlay">
+    <div class="modal">
+      <div class="modal-close" onClick="handleCloseConfirmDeleteModal()">
+        ✖
+      </div>
+      <h3>Deseja excluir essa tarefa?</h3>
+      <div class="modal-buttons">
+        <button class="cancel-delete" onClick="handleCloseConfirmDeleteModal()">
+          Cancelar
+        </button>
+        <button class="confirm-delete">Confirmar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+  <script src="./js/script.js"></script>
+  <script src="./js/task.js"></script>
+  <script src="./js/modal.js"></script>
+</body>
+
+</html>

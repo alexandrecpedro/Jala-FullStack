@@ -1,0 +1,35 @@
+.back-button {
+  position: absolute;
+  top: 0;
+  margin: 1rem;
+  padding: 0.7rem 1rem;
+  user-select: none;
+  cursor: pointer;
+  background: #ffffff;
+  color: #25155c;
+}
+
+#api-tasks {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.5rem;
+}
+
+.task {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.task:hover {
+  filter: brightness(0.9);
+}
+
+.task h2 {
+  opacity: 0.5;
+  user-select: none;
+}

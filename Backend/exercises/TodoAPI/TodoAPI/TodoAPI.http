@@ -1,0 +1,33 @@
+@TodoAPI_HostAddress = http://localhost:5280/api/TodoItems
+
+@contentType = application/json
+@accept = application/json
+
+@id = {{register_todo.response.body.id}}
+
+###
+# (1) Register a todo item
+# @name register_todo
+POST {{TodoAPI_HostAddress}}
+Accept: {{accept}}
+Content-Type: {{contentType}}
+
+{
+  "name": "walk dog",
+  "isComplete": true
+}
+
+###
+# (2) List all todo items
+# @name list_todo_items
+GET {{TodoAPI_HostAddress}}
+Accept: {{accept}}
+
+###
+# (3) Find a todo item
+# @name find_todo_item
+GET {{TodoAPI_HostAddress}}/9f6bdc98-3a9c-4877-a489-eec812a513b6
+Accept: {{accept}}
+
+###
+# (4) Put

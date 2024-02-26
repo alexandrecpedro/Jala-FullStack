@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <InvariantGlobalization>true</InvariantGlobalization>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="8.0.0" />
+        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.1"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.1">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="DDDWebAPI.Domain\DDDWebAPI.Domain\obj\DDDWebAPI.Domain.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="DDDWebAPI.Domain\DDDWebAPI.Domain\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="DDDWebAPI.Domain\DDDWebAPI.Domain\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="DDDWebAPI.Infrastructure.CrossCutting\obj\DDDWebAPI.Infrastruture.CrossCutting.Adapter.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="DDDWebAPI.Infrastructure.CrossCutting\obj\project.assets.json" />
+    </ItemGroup>
+
+</Project>

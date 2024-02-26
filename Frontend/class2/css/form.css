@@ -1,0 +1,49 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 100px;
+  gap: 2rem;
+  margin-top: -4rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 1280px) {
+  form {
+    margin-top: 0;
+    grid-template-columns: 1fr;
+  }
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input label {
+  font-weight: bold;
+}
+
+input {
+  height: 1rem;
+  padding: 1rem;
+  border: 1px solid #c2c2c2;
+  outline: none;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background: #37208b;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+button[type="submit"]:hover {
+  filter: brightness(0.8);
+}

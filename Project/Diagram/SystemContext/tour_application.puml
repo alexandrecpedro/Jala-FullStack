@@ -1,0 +1,15 @@
+@startuml Basic Sample
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title System Context diagram for Tour Application
+
+Person(customer, "Unregistered User", "A user that doesn't have an active account, but can use the tour services.")
+System(tour_system, "Tour Management System", "Allows customer to view and start virtual guided tours.")
+
+System_Ext(map_system, "Map System", "System that provides mapping, routing and markers.")
+System_Ext(media_system, "Media System", "System that provides cloud storage for media components.")
+
+Rel(customer, tour_system, "View tour info, location info and start tours")
+Rel_Neighbor(tour_system, map_system, "Gets routes and markers")
+Rel(tour_system, media_system, "Gets images and videos")
+@enduml

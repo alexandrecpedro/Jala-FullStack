@@ -1,0 +1,60 @@
+#task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.task.done h2 {
+  text-decoration: line-through;
+}
+
+.task.done {
+  filter: brightness(0.9);
+}
+
+.task .content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.task .dates {
+  display: flex;
+}
+
+.limit-date {
+  padding-left: 1rem;
+}
+
+.create-date {
+  border-right: 1px solid #747474;
+  padding-right: 1rem;
+}
+
+.task sub {
+  font-weight: bold;
+  opacity: 0.3;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  color: #747474;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}

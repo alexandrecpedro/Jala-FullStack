@@ -1,0 +1,77 @@
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  visibility: hidden;
+
+  z-index: 999;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+.modal-buttons {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.modal-buttons .confirm-delete {
+  width: 50%;
+  margin-top: 1rem;
+  background: #37208b;
+  color: white;
+  padding: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-buttons .cancel-delete {
+  width: 50%;
+  margin-top: 1rem;
+  background: transparent;
+  border: 2px solid #37208b;
+  color: #37208b;
+  padding: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  border-radius: 0.5rem;
+  background: #f1f1f1;
+  padding: 2rem;
+
+  width: 90%;
+  max-width: 500px;
+
+  z-index: 2;
+  position: relative;
+}
