@@ -1,0 +1,10 @@
+{% for item in BASE_GROUPS %}
+{% if item.group == "admins" %}
+%{{ item.group }} ALL=(ALL:ALL) NOPASSWD:ALL
+{% endif %}
+{% if ansible_local.aws is defined %}
+{% if ansible_local.aws.ROLE == "dev" and item.group == "developers" %}
+%{{ item.group }} ALL=(ALL:ALL) NOPASSWD:ALL
+{% endif %}
+{% endif %}
+{% endfor %}

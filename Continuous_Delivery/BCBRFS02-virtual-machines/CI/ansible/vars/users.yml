@@ -1,0 +1,11 @@
+---
+BASE_GROUPS:
+  - group: admins
+    gid: 3000
+  - group: developers
+    gid: 3100
+
+BASE_USERS:
+  - user: sergio.rodriguez
+    groups: admins
+    ssh_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/AQ21oV2Xt4f254n8xSOzjt2S/idt3F79W37avWH+JGey6bF+u+jlWnDCyefWvtAOei0I7pdc4UVfQTS5GB1piHKGvD6rdvoMD7WrxUxskbOObX7VhKecHVHAp9R49zFSI9ogUr5PUWejDU2eQ8eGWqq0mK2EuWBC+eNx3cQLkhDgRrkwzV9eM+l650hUTTkw7VaMnl53iO3oTdnNFE13WpYoTJLdoC8t5lNjtD4w8P15o+Gib70fwUw9y6SIQWKRmpjmrwutsJCkFqAUfhwRwoSaPfH/AJT394zrI/8UM+sMAFrH4d6jIorJHaT9LWohcY0jCG5uD11oQZfLxPpjp3Z13eYS92L4I3nULF79i0w55GjTZOPAafkVdkniok5q9jzIMpbxXSyvl9ULSQDqo5rlibhPBVwzl+1OiRBnf5lswlUZDVwWslXJhUf+3TTY+37/UcCejajTcyLa/CX7nmgss5c2v+ZXDhb359utMn6vjtzi6GFASjvHuVA0Nic=

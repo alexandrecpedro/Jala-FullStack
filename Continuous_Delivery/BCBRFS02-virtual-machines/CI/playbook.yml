@@ -1,0 +1,25 @@
+- name: Provision VM
+  hosts: all
+  gather_facts: true
+  remote_user: vagrant
+  become: true
+
+  tasks:
+  - name: Ensure postgresql is at the latest version in Debian like OS.
+    ansible.builtin.package:
+      name: postgresql
+      state: latest
+    when: ansible_os_family == "Debian"
+  - name: Ensure postgresql is at the latest version in RedHat like OS.
+    ansible.builtin.package:
+      name: postgresql-server
+      state: latest
+    when: ansible_os_family == "RedHat"
+  - name: Ensure Fedora PostgreSQL DB has been populated
+    ansible.builtin.command: postgresql-setup --initdb --unit postgresql
+    when: ansible_os_family == "RedHat"
+    register: psqlout
+  - name: Ensure that postgresql is started
+    ansible.builtin.service:
+      name: postgresql
+      state: started

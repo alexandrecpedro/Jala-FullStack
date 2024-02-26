@@ -1,0 +1,8 @@
+---
+DEFAULT_PACKAGES:
+  - curl
+  - unzip
+  - git
+  - htop
+  # - mc
+  # - python3

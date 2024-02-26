@@ -1,0 +1,5 @@
+---
+- name: Install common system utilities
+  ansible.builtin.package:
+    name: "{{ PACKAGES | default(DEFAULT_PACKAGES, true) }}"
+    state: latest

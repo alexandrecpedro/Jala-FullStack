@@ -1,0 +1,15 @@
+---
+- hosts: all
+  remote_user: root
+  become: true
+  vars:
+    ADDITIONAL_PACKAGES:
+      - java-11-amazon-corretto-headless
+      - nmap-ncat
+      - socat
+      - python3-pip
+      - dos2unix
+    PACKAGES: "{{  DEFAULT_PACKAGES + ADDITIONAL_PACKAGES }}"
+
+  roles:
+    - role: "../../common"

@@ -1,0 +1,16 @@
+---
+version: '2.4'
+
+services:
+  jenkins:
+    image: docker.io/bitnami/jenkins:2.332.1
+    environment:
+      - JENKINS_PASSWORD=Control123
+    ports:
+      - '8080:8080'
+    volumes:
+      - 'jenkins_data:/bitnami/jenkins'
+
+volumes:
+  jenkins_data:
+    driver: local

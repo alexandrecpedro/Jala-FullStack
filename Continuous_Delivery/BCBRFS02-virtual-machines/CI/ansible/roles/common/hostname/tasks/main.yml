@@ -1,0 +1,46 @@
+---
+- name: Assemble hostname
+  set_fact:
+    nodename: "{{ target_hostname |  default(inventory_hostname) }}"
+
+- name: Check hostname against provided regex
+  when: validation_regex is defined
+  set_fact:
+    valid: "{{ nodename | regex_search(validation_regex) }}"
+
+- name: Fail if hostname is not valid
+  debug:
+    msg: "The hostname {{ nodename }} is not valid"
+  failed_when: validation_regex is defined and valid == ""
+  tags:
+    - reconfigure
+
+- name: Ensure dbus installed
+  package:
+    name: dbus
+    state: present
+  tags:
+    - reconfigure
+
+- name: Get original hostname
+  command: hostname
+  register: original_hostname
+  changed_when: false
+  tags:
+    - reconfigure
+
+- name: Conform hostname
+  hostname:
+    name: "{{ nodename }}"
+  register: hostname
+  tags:
+    - reconfigure
+
+- name: Update /etc/hosts file
+  template:
+    src: hosts.j2
+    dest: /etc/hosts
+    owner: root
+    mode: 0644
+  tags:
+    - reconfigure

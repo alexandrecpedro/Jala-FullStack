@@ -1,0 +1,30 @@
+---
+- include_vars: users.yml
+
+- group:
+    name: '{{ item.group }}'
+    state: present
+    gid: '{{ item.gid }}'
+  loop: "{{ BASE_GROUPS }}"
+
+- user:
+    name: "{{ item.user }}"
+    shell: /bin/bash
+    groups: "{{ item.groups }}"
+    append: true
+    home: /home/{{ item.user }}
+  loop: "{{ BASE_USERS }}"
+
+- name: Set up authorized keys
+  authorized_key:
+    user: '{{ item.user }}'
+    state: present
+    key: '{{ item.ssh_key }}'
+  loop: "{{ BASE_USERS }}"
+
+- name: Configure sudoers
+  template:
+    src: templates/sudoers.j2
+    dest: /etc/sudoers.d/sudoers
+    mode: 0440
+    validate: '/usr/sbin/visudo -cf %s'

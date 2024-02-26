@@ -1,0 +1,19 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure('2') do |config|
+  config.vm.box = 'ubuntu/focal64'
+  config.vm.network 'private_network', ip: '10.0.0.120'
+  config.vm.provider 'virtualbox' do |vb|
+    vb.memory = '1024'
+  end
+  config.vm.provision :shell, inline: <<-SCRIPT
+    apt-get update
+    apt-get install ansible -y
+  SCRIPT
+  config.vm.provision 'ansible_local' do |ansible|
+    ansible.playbook = 'test.yml'
+    ansible.skip_tags = ['packer']
+    ansible.verbose = true
+  end
+end
