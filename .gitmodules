@@ -1,0 +1,6 @@
+[submodule "Backend/classes/WalletApi"]
+	path = Backend/classes/WalletApi
+	url = https://github.com/jonatasolmartins/WalletApi
+[submodule "Backend/classes/ModularMonolith"]
+	path = Backend/classes/ModularMonolith
+	url = https://github.com/jonatasolmartins/ModularMonolith.git
