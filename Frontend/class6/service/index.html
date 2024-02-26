@@ -14,7 +14,18 @@
   <img src="images/image2.jpg" alt="Imagem 2">
 </body>
 
-<script src="./service-worker-aux.js"></script>
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("service-worker.js")
+      .then((registration) => {
+        console.log("Service Worker registrado com sucesso:", registration);
+      })
+      .catch((error) => {
+        console.error("Erro ao registrar o Service Worker:", error);
+      });
+  }
+</script>
 
 </html>
 ''
