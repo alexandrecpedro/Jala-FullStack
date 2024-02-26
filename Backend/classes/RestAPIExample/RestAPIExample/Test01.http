@@ -1,0 +1,7 @@
+@Test01_HostAddress = http://localhost:5097
+
+GET {{Test01_HostAddress}}/weatherforecast/GetWeatherForecasts
+Accept: application/json
+Cache-Control: no-cache
+
+###
