@@ -8,6 +8,7 @@
 - [x] 4. VMs Exercises
 - [x] 5. IaaC Concepts
 - [x] 6. Development Environments
+- [x] 7. Build Automation
 - [x] ==== Practical Classes ====
 
 ## 1. IN THE ENTERPRISE
@@ -202,10 +203,31 @@ ssh -i ~/.vagrant.d\insecure_private_key -p 2222 vagrant@localhost
 - Need to be shared in a VCS
 - Needs to be created using EaC (Environment as Code)
 
+### Docker Architecture
+
+![Docker Architecture](./assets/image/Docker_arch.png)
+
 ### Bibliographical References
 
 - [1] Development Containers - https://containers.dev/
 - [2] Dev Container - https://code.visualstudio.com/docs/devcontainers/tutorial
+- [3] Rancher Desktop - https://rancherdesktop.io/
+- [4] Jetbrains Dev Containers - https://www.jetbrains.com/help/idea/connect-to-devcontainer.html
+- [5] Docker file definition - https://docs.docker.com/reference/dockerfile/
+
+## 7. BUILD AUTOMATION
+
+## Build automation inside DevOps cycle
+
+![DevOps cycle automation](./assets/image/devops_cycle_automation.png)
+
+**Deployment Pipeline**
+![Deployment Pipeline](./assets/image/deployment_pipeline.png)
+
+### Bibliographical References
+
+- [1] Deployment Pipeline_part 1 - https://www.pagerduty.com/resources/learn/what-is-a-deployment-pipeline/
+- [2] Deployment Pipeline_part 2 - https://www.browserstack.com/guide/deployment-pipeline
 
 ## ==== PRACTICAL CLASS ====
 

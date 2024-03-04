@@ -15,17 +15,4 @@
 - [5] Excalidraw - https://excalidraw.com/#room=0eb08921369c6c9b7732,qrFtobF5QEDxew15l3pm2w
 - [6] Hexagonal, Onion & Clean Architecture - https://www.youtube.com/watch?v=JubdZIdLQ4M
 - [7] Understanding Hexagonal, Clean, Onion, and Traditional Layered Architectures: A Deep Dive - https://romanglushach.medium.com/understanding-hexagonal-clean-onion-and-traditional-layered-architectures-a-deep-dive-c0f93b8a1b96
-
-===== CONTENT FOR PRESENTATION (Feb 22th, 2024) =====
-ddd
-c4 model
-monolith first
-microsservices vs monolith
-database decisions
-use cases
-context map
-designs
-
-Who will present?
-Time of presentation
-4 or 5 demos
+- [8] SSH Actions - https://github.com/appleboy/ssh-action

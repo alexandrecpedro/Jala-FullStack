@@ -1313,8 +1313,9 @@ $RECYCLE.BIN/
 
 ## Folders
 /UX-UI/
-Continuous_Delivery/assets/images
 Continuous_Delivery/virtualmachines
+BCBRFS02-dev-environment-alexandre
+BCBRFS02-dev-environment
 
 ## Files
 **/*.pdf

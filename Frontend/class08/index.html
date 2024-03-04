@@ -1,0 +1,157 @@
+<!DOCTYPE Html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cool Place</title>
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <h1 style="margin-left: 35px;">Javascript Objects</h1>
+  <div class="container">
+    <section>
+      <h2 class="header">Objects</h2>
+      <p>Objects are used to store collections of data and more complex entities. They are used to store various
+        keyed collections and more complex entities. An object can be created with figure brackets {…} with an
+        optional list of properties. A property is a “key: value” pair, where key is a string (also called a
+        “property name”), and value can be anything.</p>
+      <p>Objects are used to store collections of data and more complex entities. They are used to store various
+        keyed collections and more complex entities. An object can be created with figure brackets {…} with an
+        optional list of properties. A property is a “key: value” pair, where key is a string (also called a
+        “property name”), and value can be anything.</p>
+    </section>
+    <section>
+      <h2 class="header">Creating an Object</h2>
+      <p>There are two ways to create an object: using an object initializer or the new Object() constructor.</p>
+      <p>Using an object initializer is the most common way to create an object. The following example creates an
+        empty object using an object initializer:</p>
+      <pre>
+                var objectName = {};
+            </pre>
+      <p>Using the new keyword is the second most common way to create an object. The following example creates an
+        empty object using the new keyword:</p>
+      <pre>
+                var objectName = new Object();
+            </pre>
+    </section>
+    <section>
+      <h2 class="header">Adding Properties to an Object</h2>
+      <p>Properties are added to an object using dot notation. The following example adds a property to the
+        object, objectName:</p>
+      <pre>
+                objectName.propertyName = propertyValue;
+            </pre>
+      <p>Properties are added to an object using dot notation. The following example adds a property to the
+        object, objectName:</p>
+      <pre>
+                objectName['propertyName'] = propertyValue;
+            </pre>
+    </section>
+    <section>
+      <h2 class="header">Accessing Properties of an Object</h2>
+      <p>Properties are accessed using dot notation or bracket notation. The following example accesses the
+        property of the object, objectName:</p>
+      <pre>
+                objectName.propertyName;
+            </pre>
+      <p>Properties are accessed using dot notation or bracket notation. The following example accesses the
+        property of the object, objectName:</p>
+    </section>
+  </div>
+</body>
+
+</html>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    color: rgb(1, 72, 1);
+    background-color: lightpink;
+  }
+
+  .header {
+    background-color: rgb(1, 72, 1);
+    color: lightpink;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* alinha os elementos horizontalmente */
+    border: 2px solid rgb(1, 72, 1);
+    margin: 30px;
+    margin-bottom: 90px;
+    /* adiciona uma margem inferior */
+    scroll-behavior: smooth;
+    padding: 10px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(1, 72, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: lightpink;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 5px 10px;
+    padding: 10px;
+    border: 2px solid rgb(1, 72, 1);
+    align-self: start;
+    width: 100px;
+    color: rgb(1, 72, 1);
+    border-radius: 5px;
+  }
+
+  section,
+  form {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .btn {
+    margin-top: 10px;
+    border: 1px solid rgb(1, 72, 1);
+    color: lightpink;
+    background-color: rgb(1, 72, 1);
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    /* bordas arredondadas */
+    padding: 10px;
+    /* algum preenchimento */
+    text-decoration: none;
+    /* remove o sublinhado */
+    text-align: center;/
+  }
+
+  .btn:hover {
+    background-color: black;
+    color: rgb(1, 72, 1);
+  }
+
+  .btn:active {
+    background-color: lightpink;
+    color: rgb(1, 72, 1);
+  }
+</style>
