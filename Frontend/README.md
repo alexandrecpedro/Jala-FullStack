@@ -55,6 +55,7 @@
 - [21] ESLint (Sort Imports) - https://eslint.org/docs/latest/rules/sort-imports
 - [22] NVM - https://github.com/nvm-sh/nvm/blob/master/README.md
 - [23] ASDF - https://asdf-vm.com/
+- [24] Rollup - https://rollupjs.org/
 - [] CodeWars (test example) - https://www.codewars.com/kata/5b210360bd03075a47001191
 - [] Jala Bootcamp 2022 - https://github.com/mateus-vianna/jalabootcamp-fe200222
 - [] JalaUniversity Bootcamp 2024 - https://github.com/mawavial/FEBoot03/
