@@ -23,9 +23,12 @@
 - [x] 7. Architectures - MVVM, Flux, Redux, Component based
 - [x] 8. Object & Classes
 - [x] 9. Object Prototype
-- [x] 10. React basis with Webpack
-- [x] 11. Webpack configs
-- [x] 12.
+- [x] 10. React Basis with Webpack
+- [x] 11. Webpack Configs
+- [x] 12. React Class Based Components and Fundamentals
+- [x] 13. React Hooks
+- [x] 14. React Hooks Persist State
+- [x] 15. Babel - Steps to Compile
 
 ## BIBLIOGRAPHICAL REFERENCES
 

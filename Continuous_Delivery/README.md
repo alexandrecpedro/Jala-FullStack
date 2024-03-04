@@ -224,10 +224,17 @@ ssh -i ~/.vagrant.d\insecure_private_key -p 2222 vagrant@localhost
 **Deployment Pipeline**
 ![Deployment Pipeline](./assets/image/deployment_pipeline.png)
 
+## Using SonarQube
+
+```code
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+```
+
 ### Bibliographical References
 
 - [1] Deployment Pipeline_part 1 - https://www.pagerduty.com/resources/learn/what-is-a-deployment-pipeline/
 - [2] Deployment Pipeline_part 2 - https://www.browserstack.com/guide/deployment-pipeline
+- [3] Watchtower Container - https://containrrr.dev/watchtower/
 
 ## ==== PRACTICAL CLASS ====
 
