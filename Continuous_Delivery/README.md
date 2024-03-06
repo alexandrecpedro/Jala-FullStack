@@ -235,6 +235,7 @@ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 - [1] Deployment Pipeline_part 1 - https://www.pagerduty.com/resources/learn/what-is-a-deployment-pipeline/
 - [2] Deployment Pipeline_part 2 - https://www.browserstack.com/guide/deployment-pipeline
 - [3] Watchtower Container - https://containrrr.dev/watchtower/
+- [4] SonarQube Scan Action - https://github.com/SonarSource/sonarqube-scan-action
 
 ## ==== PRACTICAL CLASS ====
 

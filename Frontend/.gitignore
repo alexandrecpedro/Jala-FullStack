@@ -963,6 +963,7 @@ FodyWeavers.xsd
 
 ### Files
 assets/**.pdf
+pnpm-lock.yaml
 
 ### Folders
 FEBoot03/

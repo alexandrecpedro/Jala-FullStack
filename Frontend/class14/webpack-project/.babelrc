@@ -2,9 +2,9 @@
     "presets": [
         "@babel/preset-env",
         "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+        "transform-remove-strict-mode"
     ]
-    // "plugins": [
-    //     "@babel/plugin-transform-runtime",
-    //     "transform-remove-strict-mode"
-    // ]
 }
