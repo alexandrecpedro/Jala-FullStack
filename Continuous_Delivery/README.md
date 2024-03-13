@@ -9,6 +9,7 @@
 - [x] 5. IaaC Concepts
 - [x] 6. Development Environments
 - [x] 7. Build Automation
+- [x] 8. Cloud Computing
 - [x] ==== Practical Classes ====
 
 ## 1. IN THE ENTERPRISE
@@ -217,14 +218,14 @@ ssh -i ~/.vagrant.d\insecure_private_key -p 2222 vagrant@localhost
 
 ## 7. BUILD AUTOMATION
 
-## Build automation inside DevOps cycle
+### Build automation inside DevOps cycle
 
 ![DevOps cycle automation](./assets/image/devops_cycle_automation.png)
 
 **Deployment Pipeline**
 ![Deployment Pipeline](./assets/image/deployment_pipeline.png)
 
-## Using SonarQube
+### Using SonarQube
 
 ```code
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
@@ -236,6 +237,21 @@ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 - [2] Deployment Pipeline_part 2 - https://www.browserstack.com/guide/deployment-pipeline
 - [3] Watchtower Container - https://containrrr.dev/watchtower/
 - [4] SonarQube Scan Action - https://github.com/SonarSource/sonarqube-scan-action
+- [5] Github Actions, Docker Compose and Watchtower - https://medium.com/@avash700/ci-cd-made-easy-github-actions-docker-compose-and-watchtower-60a698d24f27
+
+## 8. CLOUD COMPUTING
+
+### What is Cloud Computing?
+
+![Cloud Computing Microsoft](./assets/image/cloud-computing-microsoft.png)
+
+![5 Reasons Businesses Use the Cloud](./assets/image/reasons-businesses-use-cloud.png)
+
+### Bibliographical References
+
+- [1] Top 10 Features of Cloud Computing in 2023 - https://cyfuture.cloud/blog/top-10-features-of-cloud-computing-features-in-2023/
+- [2] What is Cloud Computing? - https://www.veritis.com/blog/what-is-cloud-computing/
+- [3] What is Cloud Computing? - https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing
 
 ## ==== PRACTICAL CLASS ====
 
@@ -286,6 +302,33 @@ mkdir agent-folder
 curl -sO http://192.168.56.10:8080/jnlpJars/agent.jar
 
 mv agent.jar agent-folder
+
+# Generate public SSH Key
+ssh-keygen -t rsa -b 2048 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+# Access Azure machine (VM)
+ssh pedro@57.151.89.230 -i YOUR_PRIVATE_KEY
+
+# Install Docker Engine on Ubuntu
+https://docs.docker.com/engine/install/ubuntu/
+
+# Know Docker is Running
+sudo systemctl status docker
+
+# Monitoring the logs
+sudo journalctl -udocker -f
+
+# Add a user to the "docker" group on a Linux system
+sudo gpasswd -a username docker
+
+# Watchtower
+docker run -d \  --name watchtower \  -e REPO_USER=jalauni-bootcamp-1@outlook.com \  -e REPO_PASS=dckr_pat_OCIEtKbyz4oWLARsFetoFst2JFg \  -v /var/run/docker.sock:/var/run/docker.sock \  containrrr/watchtower --debug
+
+# Permissions
+# permissions of the /opt/bootcamp directory and all its contents to read, write, and execute for the owner and the group, and read and execute for others
+chmod 775 -R /opt/bootcamp
+
 ```
 
 **Bibliographical References**

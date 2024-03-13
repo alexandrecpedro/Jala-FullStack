@@ -29,6 +29,11 @@
 - [x] 13. React Hooks
 - [x] 14. React Hooks Persist State
 - [x] 15. Babel - Steps to Compile
+- [x] 16. React Router DOM
+- [x] 17. React Router DOM - BrowserRouter
+- [x] 18. Redux
+- [x] 19. Redux - Persist
+- [x] 20.
 
 ## BIBLIOGRAPHICAL REFERENCES
 

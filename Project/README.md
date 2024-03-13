@@ -16,3 +16,4 @@
 - [6] Hexagonal, Onion & Clean Architecture - https://www.youtube.com/watch?v=JubdZIdLQ4M
 - [7] Understanding Hexagonal, Clean, Onion, and Traditional Layered Architectures: A Deep Dive - https://romanglushach.medium.com/understanding-hexagonal-clean-onion-and-traditional-layered-architectures-a-deep-dive-c0f93b8a1b96
 - [8] SSH Actions - https://github.com/appleboy/ssh-action
+- [9] Notion - https://zenith-hedgehog-252.notion.site/Project-Links-c803313698c24a08a01d38a069e5a749
