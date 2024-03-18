@@ -33,7 +33,11 @@
 - [x] 17. React Router DOM - BrowserRouter
 - [x] 18. Redux
 - [x] 19. Redux - Persist
-- [x] 20.
+- [x] 20. Redux - Exercises
+- [x] 21. TypeScript - Fundamentals
+- [x] 22.
+- [x] 23.
+- [x] 24.
 
 ## BIBLIOGRAPHICAL REFERENCES
 
