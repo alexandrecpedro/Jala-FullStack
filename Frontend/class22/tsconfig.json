@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "target": "ES6",
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "dist",
+    "module": "CommonJS",
+    "noEmit": false,
+    // mudou do 4 pro 5
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -35,9 +35,10 @@
 - [x] 19. Redux - Persist
 - [x] 20. Redux - Exercises
 - [x] 21. TypeScript - Fundamentals
-- [x] 22.
+- [x] 22. TypeScript - Fundamentals II
 - [x] 23.
 - [x] 24.
+- [x] 25.
 
 ## BIBLIOGRAPHICAL REFERENCES
 
@@ -52,19 +53,20 @@
 - [9] Webpack - https://webpack.js.org/
 - [10] Gulp - https://gulpjs.com/
 - [11] Redux - https://redux.js.org/
-- [12] Husky - https://typicode.github.io/husky/
-- [13] React Testing Library - https://testing-library.com/docs/react-testing-library/intro/
-- [14] Mocha - https://mochajs.org/
-- [15] Cypress - https://www.cypress.io/
-- [16] Vuetify - https://vuetifyjs.com/en/
-- [17] MUI - https://mui.com/material-ui/
-- [18] Bootstrap - https://getbootstrap.com/docs/5.1/getting-started/introduction/
-- [19] TailwindCSS - https://tailwindcss.com/
-- [20] Codectome - https://codecto.me/
-- [21] ESLint (Sort Imports) - https://eslint.org/docs/latest/rules/sort-imports
-- [22] NVM - https://github.com/nvm-sh/nvm/blob/master/README.md
-- [23] ASDF - https://asdf-vm.com/
-- [24] Rollup - https://rollupjs.org/
+- [12] Redux Toolkit - https://redux-toolkit.js.org/
+- [13] Husky - https://typicode.github.io/husky/
+- [14] React Testing Library - https://testing-library.com/docs/react-testing-library/intro/
+- [15] Mocha - https://mochajs.org/
+- [16] Cypress - https://www.cypress.io/
+- [17] Vuetify - https://vuetifyjs.com/en/
+- [18] MUI - https://mui.com/material-ui/
+- [19] Bootstrap - https://getbootstrap.com/docs/5.1/getting-started/introduction/
+- [20] TailwindCSS - https://tailwindcss.com/
+- [21] Codectome - https://codecto.me/
+- [22] ESLint (Sort Imports) - https://eslint.org/docs/latest/rules/sort-imports
+- [23] NVM - https://github.com/nvm-sh/nvm/blob/master/README.md
+- [24] ASDF - https://asdf-vm.com/
+- [25] Rollup - https://rollupjs.org/
 - [] CodeWars (test example) - https://www.codewars.com/kata/5b210360bd03075a47001191
 - [] Jala Bootcamp 2022 - https://github.com/mateus-vianna/jalabootcamp-fe200222
 - [] JalaUniversity Bootcamp 2024 - https://github.com/mawavial/FEBoot03/
