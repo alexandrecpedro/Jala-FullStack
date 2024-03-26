@@ -1,0 +1,15 @@
+{
+  "name": "feboot03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc",
+    "start:bad": "tsc src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}

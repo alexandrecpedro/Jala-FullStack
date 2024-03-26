@@ -1,0 +1,21 @@
+{
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "dist",
+        "allowJs": true,
+        "checkJs": true,
+        "module": "commonjs",
+        "strict": true,
+        "noEmit": false,
+        //por default as duas propriedades abaixo säo true
+        // strictPropertyInitialization checa se todas as propriedades foram inicializadas no construtor
+        "strictPropertyInitialization": false,
+        "noImplicitAny": false
+    },
+}

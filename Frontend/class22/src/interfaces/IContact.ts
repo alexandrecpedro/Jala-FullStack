@@ -1,3 +1,5 @@
+"use strict";
+
 interface IContact {
   id: number;
   name: string;

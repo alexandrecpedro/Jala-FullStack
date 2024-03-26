@@ -16,6 +16,10 @@ class Contact {
     this.email = "";
     this.phone = "";
   }
+
+  print() {
+    console.log(this.name);
+  }
 }
 
 // let b: Contact = new Contact();

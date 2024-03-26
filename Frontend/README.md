@@ -36,9 +36,13 @@
 - [x] 20. Redux - Exercises
 - [x] 21. TypeScript - Fundamentals
 - [x] 22. TypeScript - Fundamentals II
-- [x] 23.
-- [x] 24.
-- [x] 25.
+- [x] 23. TypeScript - Methods and Generics
+- [x] 24. TypeScript - Generics
+- [x] 25. Frameworks - ExpoJS, Gatsby, Next and Vite - with TS (part 1)
+- [x] 26. Frameworks - ExpoJS, Gatsby, Next and Vite - with TS (part 2)
+- [x] 27.
+- [x] 28.
+- [x] 29.
 
 ## BIBLIOGRAPHICAL REFERENCES
 

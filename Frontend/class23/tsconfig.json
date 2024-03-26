@@ -7,8 +7,7 @@
     "outDir": "dist",
     "module": "CommonJS",
     "noEmit": false,
-    //por default as duas propriedades abaixo säo true
-    // strictPropertyInitialization checa se todas as propriedades foram inicializadas no construtor
+    // mudou do 4 pro 5
     "strictPropertyInitialization": false,
     "noImplicitAny": false
   },
