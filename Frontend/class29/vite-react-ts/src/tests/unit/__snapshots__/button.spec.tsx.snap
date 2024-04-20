@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button component 1`] = `
+<button
+  aria-label="Click me"
+  onClick={[Function]}
+  type="button"
+>
+  Click me
+</button>
+`;

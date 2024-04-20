@@ -1,0 +1,26 @@
+/* 
+    https: //colours.neilorangepeel.com/ 
+    https: //css-tricks.com/guides/ 
+ */
+* {
+    /* color: red/green/blue  */
+    /* 0-255, alpha 0-1 */
+    border-color: rgb(255, 30%, 15%, 0.15);
+    /* #fffff - #000000 */
+    color: '#ffffffff';
+    /* 00-ff, alpha 00-ff*/
+    background-color: rgb(210, 88, 210);
+    color: rgba(15, 53, 29, 0.789);
+    border: 2px solid;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    /* 0-360, 0-100%, 0-100%, 0-1 */
+    /* color: hue, saturation, lightness, alpha */
+    /* color: hsl(174, 83%, 45%); */
+    /* border: 8px solid hsla(270, 39%, 28%, 0.15); */
+}

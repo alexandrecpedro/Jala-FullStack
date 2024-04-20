@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gradient Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to right, #ff0000, #00ff00);
+        }
+
+        .radial-gradient,
+        .conic-gradient,
+        .repeating-linear-gradient,
+        .repeating-radial-gradient {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+
+        .radial-gradient {
+            background: radial-gradient(circle, #ff0000, #00ff00);
+        }
+
+        .conic-gradient {
+            background: conic-gradient(#ff0000, #00ff00);
+        }
+
+        .repeating-linear-gradient {
+            background: repeating-linear-gradient(to right, #ff0000, #00ff00);
+        }
+
+        .repeating-radial-gradient {
+            background: repeating-radial-gradient(circle, #ff0000, #00ff00);
+        }
+
+        .white {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="white">Gradient Page</h1>
+    <div class="radial-gradient white" title="Radial Gradient">Radial Gradient</div>
+    <div class="conic-gradient white" title="Conic Gradient">Conic Gradient</div>
+    <div class="repeating-linear-gradient white" title="Repeating Linear Gradient">Repeating Linear Gradient</div>
+    <div class="repeating-radial-gradient white" title="Repeating Radial Gradient">Repeating Radial Gradient</div>
+</body>
+
+</html>
