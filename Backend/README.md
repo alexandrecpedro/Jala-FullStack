@@ -19,8 +19,10 @@
 - [x] 15. Design Patterns - Creational Patterns [Prototype]
 - [x] 16. Design Patterns - Behavioral Patterns [Strategy]
 - [x] 17. Modular Monolith
-- [x] 18.
-- [x] 19.
+- [x] 18. Background Service
+- [x] 19. Event Bus
+- [x] 20. Tests - Unit Test, Integration Test, Mock
+- [x] 21. Tests - Unit Test, Integration Test, Mock
 
 ## SECRETS (SENSIBLE DATA FOR C#)
 
@@ -44,3 +46,4 @@ dotnet user-secrets set "amqps" "amqps://" --project WalletApi.Modules.Wallets.A
 - [8] Marten - https://martendb.io/
 - [9] Wolverine - https://wolverine.netlify.app/
 - [10] App Secrets - https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-8.0&tabs=windows
+- [11] Microservices using ASP.NET Core 8, Ocelot and MongoDB - https://www.codeproject.com/Articles/5370795/Microservices-using-ASP-NET-Core-8-Ocelot-MongoDB
