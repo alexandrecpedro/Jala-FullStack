@@ -23,6 +23,7 @@
 - [x] 19. Event Bus
 - [x] 20. Tests - Unit Test, Integration Test, Mock
 - [x] 21. Tests - Unit Test, Integration Test, Mock
+- [x] 22. Azure - Basic Concepts
 
 ## SECRETS (SENSIBLE DATA FOR C#)
 
