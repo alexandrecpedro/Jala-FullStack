@@ -50,3 +50,4 @@ dotnet user-secrets set "amqps" "amqps://" --project WalletApi.Modules.Wallets.A
 - [10] App Secrets - https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-8.0&tabs=windows
 - [11] Microservices using ASP.NET Core 8, Ocelot and MongoDB - https://www.codeproject.com/Articles/5370795/Microservices-using-ASP-NET-Core-8-Ocelot-MongoDB
 - [12] Azure - https://azure.microsoft.com/en-us/blog/free-ebook-the-developer-s-guide-to-microsoft-azure-now-available/
+- [13] Azure Functions - https://azure.microsoft.com/pt-br/products/functions/
