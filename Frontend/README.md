@@ -44,8 +44,6 @@
 - [x] 28. Tests - Unit Test, Smoke Test, E2E Test, Feature Test
 - [x] 29. Tests - Jest, Cypress, Vitest
 - [x] 30. CSS - A crash course
-- [x] 31.
-- [x] 31.
 
 ## BIBLIOGRAPHICAL REFERENCES
 
