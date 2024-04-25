@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jala.TestClassFunc", "Jala.TestClassFunc\Jala.TestClassFunc.csproj", "{CA641F57-2E24-40A5-BE2F-01E64540B4E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jala.QueueFunc", "Jala.QueueFunc\Jala.QueueFunc.csproj", "{621FB148-720D-400C-8A93-2EF78F582F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jala.Queue.IO.Api", "Jala.Queue.IO.Api\Jala.Queue.IO.Api.csproj", "{800676CC-E581-4928-B259-E067AD8A07AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA641F57-2E24-40A5-BE2F-01E64540B4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA641F57-2E24-40A5-BE2F-01E64540B4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA641F57-2E24-40A5-BE2F-01E64540B4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA641F57-2E24-40A5-BE2F-01E64540B4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621FB148-720D-400C-8A93-2EF78F582F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621FB148-720D-400C-8A93-2EF78F582F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621FB148-720D-400C-8A93-2EF78F582F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621FB148-720D-400C-8A93-2EF78F582F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{800676CC-E581-4928-B259-E067AD8A07AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800676CC-E581-4928-B259-E067AD8A07AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800676CC-E581-4928-B259-E067AD8A07AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800676CC-E581-4928-B259-E067AD8A07AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
